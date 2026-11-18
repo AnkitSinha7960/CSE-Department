@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSE Department | Labs & Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">CSE Department</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="faculty.html">Faculty</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="labs.html" class="active">Labs & Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h1 class="page-title">Department Laboratories</h1>
+        <div class="grid-3 mb-2">
+            <div class="card">
+                <h3>Programming & Web Lab</h3>
+                <p><strong>Room:</strong> Block A, Lab 101</p>
+                <p>Equipped with 60 high-speed workstations, VS Code, Git, and modern browsers for web development.</p>
+            </div>
+
+            <div class="card">
+                <h3>Cloud & Networking Lab</h3>
+                <p><strong>Room:</strong> Block A, Lab 204</p>
+                <p>Dedicated environment for AWS cloud deployment, Linux server administration, and network simulation.</p>
+            </div>
+
+            <div class="card">
+                <h3>AI & Data Science Lab</h3>
+                <p><strong>Room:</strong> Block B, Lab 302</p>
+                <p>GPU-enabled systems for machine learning, Python analytics, and database management.</p>
+            </div>
+        </div>
+
+        <h2 class="page-title">Contact the Department</h2>
+        <div class="grid-2">
+            <div class="card">
+                <h3>Department Office</h3>
+                <p><strong>Location:</strong> 2nd Floor, Academic Block A</p>
+                <p><strong>Email:</strong> cse.office@college.edu</p>
+                <p><strong>Phone:</strong> +91 98765 43210</p>
+                <p><strong>Office Hours:</strong> Mon – Fri, 9:00 AM – 5:00 PM</p>
+            </div>
+
+            <div class="card">
+                <h3>Send an Inquiry</h3>
+                <form id="deptContactForm" novalidate>
+                    <div class="form-group">
+                        <label for="studentName">Your Name</label>
+                        <input type="text" id="studentName" placeholder="Enter your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="studentEmail">Email Address</label>
+                        <input type="email" id="studentEmail" placeholder="Enter your email">
+                    </div>
+                    <div class="form-group">
+                        <label for="queryText">Query</label>
+                        <textarea id="queryText" rows="3" placeholder="Write your message..."></textarea>
+                    </div>
+                    <button type="submit" class="btn">Submit Inquiry</button>
+                    <p id="formFeedback" class="feedback-msg"></p>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Department of Computer Science & Engineering. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
