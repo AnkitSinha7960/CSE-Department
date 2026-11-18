@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSE Department ||| Home</title>
+    <link rel="stylesheet" href="style (1).css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">CSE Department</div>
+            <ul class="nav-links">
+                <li><a href="index (1).html" class="active">Home</a></li>
+                <li><a href="faculty.html">Faculty</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="labs.html">Labs & Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Department of Computer Science & Engineering</h1>
+        <p>Empowering future innovators in Software Engineering, AI, and Cloud Computing.</p>
+        <a href="courses.html" class="btn">Explore Courses</a>
+    </section>
+
+    <main class="container">
+        <!-- Department Introduction -->
+        <section class="section">
+            <h2>About the Department</h2>
+            <p>
+                Established with a vision to foster technical excellence, the Department of Computer Science and Engineering (CSE) 
+                offers undergraduate and postgraduate programs designed to blend strong theoretical foundations with hands-on industry skills. 
+                Our students actively engage in research, hackathons, and cloud-based software development.
+            </p>
+        </section>
+
+        <!-- Notices Section -->
+        <section class="section">
+            <div class="notice-header">
+                <h2>Latest Department Notices</h2>
+                <select id="noticeFilter">
+                    <option value="all">All Notices</option>
+                    <option value="exam">Exams</option>
+                    <option value="event">Events</option>
+                </select>
+            </div>
+
+            <div class="notice-list" id="noticeList">
+                <div class="notice-card" data-category="exam">
+                    <span class="badge exam">Exam</span>
+                    <h3>Mid-Semester Practical Examination Schedule</h3>
+                    <p>BTech 1st-Year lab evaluations will commence from Monday in the Programming Lab.</p>
+                </div>
+
+                <div class="notice-card" data-category="event">
+                    <span class="badge event">Event</span>
+                    <h3>Cloud Computing & AWS Workshop</h3>
+                    <p>Hands-on session on static web hosting with Amazon S3 this Friday at 2:00 PM.</p>
+                </div>
+
+                <div class="notice-card" data-category="exam">
+                    <span class="badge exam">Exam</span>
+                    <h3>Project Synopsis Submission Deadline</h3>
+                    <p>All student groups must submit their web project GitHub links by the end of the week.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Department of Computer Science & Engineering. All rights reserved.</p>
+    </footer>
+
+    <script src="script (1).js"></script>
+</body>
+</html>
